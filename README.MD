@@ -16,7 +16,7 @@ We can also assign a value to our variable upon delcaration. We will use the `=`
 var name = "Tayte";
 ```
 
-We can also reassign values to variable that has already been declared.
+We can also reassign values to a variable that has already been declared.
 
 ```javascript
 var name = "Tayte";
@@ -25,7 +25,7 @@ name = "New Name";
 
 ## DataTypes
 
-Variables in Javascript can hold any data type. Languages that allow this to happen are known as a `dynammically typed` language.
+Variables in Javascript can hold any data type. Languages that allow this to happen are known as a `dynamically typed` language.
 
 There are seven basic data types in Javascript.
 
@@ -38,12 +38,12 @@ var nine = 9;
 var nineAndHalf = 9.5;
 ```
 
-We can perform different opertaions on the `number` data type such as multiply, divide, subtracttion, addition, etc.
+We can perform different operations on the `number` data type such as multiply, divide, subtraction, addition, etc.
 
-Other than integers and floating point numbers (decimals), there `special numeric values` that belong to the `number` data type.
+Other than integers and floating point numbers (decimals), there are `special numeric values` that belong to the `number` data type.
 An example of this is `NaN`.
 
-`NaN` represents a computational error, it is a result of an undefined or an incorrect evaluation of a mathematical operation.
+`NaN` stands for `Not a Number`, and represents a computational error, it is a result of an undefined or incorrect evaluation of a mathematical operation.
 
 Example:
 
@@ -57,10 +57,10 @@ This would return `NaN` because we can't divide a string by 2. `NaN` is sticky, 
 
 The `string` data type represents a set of characters, a word, or a sentence.
 
-String must always be wrapped in quotes. We can use either double or single quotes to accomplish this.
+Strings must always be wrapped in quotes. We can use either double or single quotes to accomplish this.
 
 ```javascript
-var stringOne = "This is a string using single quotes";
+var stringOne = 'This is a string using single quotes';
 var stringTwo = "This is a string using double quotes";
 ```
 
@@ -73,7 +73,7 @@ var greeting = `Hello, my name is ${name}`;
 
 ### Boolean
 
-`Boolean` data types have only two values, `true` or `false`.
+The `Boolean` data type has only two values, `true` or `false`.
 
 This data type is commonly used to store a yes or no value to a variable.
 `true` means yes
@@ -110,7 +110,7 @@ Arrays are the data type we can use to create an ordered collection or list of v
 
 Arrays are created by using `[]` brackets.
 
-Values are seperated by commas and the values in an array can be of multiple data types.
+Values are separated by commas and the values in an array can be of multiple data types.
 
 Arrays in Javascript are zero based index, meaning that the index value of the first item starts at 0 and moves up from there.
 
@@ -120,7 +120,7 @@ var newArray = [1, "two", 3, null, undefined];
 
 ### Object
 
-An object in Javascript is a comma seperated list of key-value pairs and are wrapped in curly braces. Objects are used to encapsulate data.
+An object in Javascript is a comma separated list of key-value pairs and are wrapped in curly braces. Objects are used to encapsulate data.
 
 The key, also referred to as the property, of a value is the name that we will use to reference some data inside the object.
 
@@ -133,7 +133,7 @@ var myObj = {
 
 ### Function
 
-Functions are reusable blocks of code inside of our programs that will perform a serious of events to create the logic we desire. It's easy to think about these as an algorithim or mini-program inside of our programs.
+Functions are reusable blocks of code inside of our programs that will perform a series of events to create the logic we desire. It's easy to think about these as an algorithim or mini-program inside of our programs.
 
 ```javascript
 function myFunc() {
@@ -159,7 +159,7 @@ Anything other these six values are `truthy`
 ## Logical Operators
 We can use `logical operators` to act as a comparison to test for a certain condition.
 
-`&&` is the AND operator, this will check for the expression on the left AND the expression on the right to be truthy. If it is, the logical operator will return true.
+`&&` is the AND operator, this will check for the expression on the left AND the expression on the right to be truthy. If they are, the logical operator will return true.
 
 `||` the double pipes is the OR operator. This will check to see if the expression on the left OR the expression on the right is true. Notice that only one needs to run true for the OR operator to return true.
 
@@ -191,7 +191,7 @@ the above statement would return true because the string of 7 does not match the
 
 An if statement is a block of code that checks for a specfic condition to be truthy, if it is, it will execute the logic inside the block of code.
 
-the if statement starts using the keyword `if` then uses parenthesis to check for a specific condition to be true, if it is the code insie the code block (curly braces) will be executed. If the condition runs false we can use an `else if` statement to check for another condition, and if that runs false, we can either use another `else if` or use a catch-all block and run an `else` statement.
+An if statement starts using the keyword `if` then uses parenthesis to check for a specific condition to be true, if it is the code inside the code block (curly braces) will be executed. If the condition runs false we can use an `else if` statement to check for another condition, and if that runs false, we can either use another `else if` or use a catch-all block and run an `else` statement.
 
 We can use logical operators to check for truthy or falsy conditions inside of the parenthesis of the if statment.
 
@@ -207,11 +207,11 @@ if('7' === 7){
 
 ## Functions
 
-Like we mentioned earlier in the `Data Types` sections, functions are reusable blocks of code inside of our programs that will perform a serious of events to create the logic we desire. It's easy to think about these as an algorithim or mini-program inside of our programs.
+Like we mentioned earlier in the `Data Types` section, functions are reusable blocks of code inside of our programs that will perform a series of events to create the logic we desire. It's easy to think about these as an algorithim or mini-program inside of our programs.
 
 There are multiple ways to create a function:
 
-Function Express is where will store an anonymous function into a variable.
+Function Expression is where will store an anonymous function into a variable.
 
 ```javascript
 var myFunc = function(){
@@ -219,7 +219,7 @@ var myFunc = function(){
 };
 ```
 
-Function Declarations is the more common way to create a function.
+Function Declaration is the more common way to create a function.
 
 ```javascript
 function myFunc(){
