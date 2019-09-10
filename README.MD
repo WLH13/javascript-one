@@ -282,10 +282,10 @@ function add(numOne){
 add(5) // this will return 10
 ```
 
-In the code above, we are returning whatever is to the right of the `return` statement. Notice how we are adding our parameter variable numOne to with the number 5. Javascript will execute the code on the right side of the `return` statement before returning from the function.
+In the code above, we are returning whatever is to the right of the `return` statement. Notice how we are adding our parameter variable numOne with the number 5. Javascript will execute the code on the right side of the `return` statement before returning from the function.
 
 
-NOTICE: the function is completely done executing as soon as it hits the `return` statment
+NOTICE: the function is completely done executing as soon as it hits the `return` statement
 
 ```javascript
 function add(){
@@ -294,16 +294,16 @@ function add(){
 }
 ```
 
-the console log after the `return` statement is never hit and will never be executed because the `return` statment kills the execution of the funciton.
+the console log after the `return` statement is never hit and will never be executed because the `return` statement kills the execution of the function.
 
 
 ## Scope
 
-Scope is the context in which values and expressions are 'avilable' in your code. 
+Scope is the context in which values and expressions are 'available' in your code. 
 
 The `global scope` is available anywhere in your code.
 
-Scopes have a hierechy system. When a function is created it creates it's own scope, but when we have nested functions this hierechy comes into play where parent scopes can not access their child scopes.
+Scopes have a hierarchy system. When a function is created it creates it's own scope, but when we have nested functions this hierarchy comes into play where parent scopes can not access their childrens scopes.
 
 ```javascript
 
