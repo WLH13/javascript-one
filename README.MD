@@ -2,6 +2,10 @@
 
 Javascript is known as the language of the web. It is often used alongside HTML and CSS. If a website is performing any kind of dynamic display or interaction, it is probably using Javascript to accomplish it.
 
+# Lecture Slides
+
+https://slides.com/mattbodily/deck-21
+
 ## Variables
 
 Variables are what we use in Javascript to store values. They can be declared by using the keyword `var`. It's easy to think about a variable as a box and we will store our content inside the box. We will also give that box a name to have a way to reference it.
